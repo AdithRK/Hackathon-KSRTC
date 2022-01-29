@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KSRTC Online Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=""/>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script language="javascript">
+function showcapital ()
+{
+var cc,ans;
+c=document.frmstate.state.selectedIndex
+switch(c)
+{
+case 0: ans="Pattom"; break;
+case 1: ans="Ambalamukku"; break;
+case 2: ans="Nalanchira"; break;
+case 3: ans="Chembazhanthy"; break;
+case 4: ans="Shankhumukam"; break;
+case 5: ans="Thiruvallam"; break;
+case 6: ans="Kannammoola"; break;
+case 7: ans="Ulloor"; break;
+case 8: ans="Karyavattom"; break;
+case 9: ans="Azhikode"; break;
+
+}document.frmstate.txtcapital.value=ans;
+}
+</script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="header" id="head">
+      <div class="container">
+         <div class="header-top">
+      		 <div class="logo">
+				<a href="index.html"><img src="images/logo.jpg" alt="Logo of KSRTC"/></a>
+			 </div>
+       <h1>&nbsp&nbspKSRTC Online Services</h1><br>
+       <h5>&nbsp&nbsp&nbspLive Bus location</h5>
+		   <div class="top-menu">
+		   	<span class="menu"> </span>
+			<ul>
+			 	<nav class="cl-effect-5">
+				<li><a class="active" href="index.html"><span data-hover="Home">home</span></a></li>
+				<li><a href="#about us" class="scroll"><span data-hover="about us">about us</span></a></li>
+				<li><a href="#ticketing" class="scroll"><span data-hover="e.ticketing"><span>e-ticketing</span></a></li>
+				<li><a href="#circular" class="scroll"><span data-hover="circular">City circular</span></a></li>
+				<li><a href="#administration" class="scroll"><span data-hover="administration">administration</span></a></li>
+        <li><a href="#tenders" class="scroll"><span data-hover="tenders">tenders</span></a></li>
+        <li><a href="#financials" class="scroll"><span data-hover="financials">financials</span></a></li>
+        <li><a href="#More" class="scroll"><span data-hover="More">More</span></a></li>
+				</nav>
+			 </ul>
+			 </div>
+			 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+			<div class="clearfix"></div>
+		 </div>
+
+<br>
+
+
+      </div>
+	 </div>
+	</div>
+	<div class="content">
+		<div class="about-section" id="about" id="about">
+	<div class="container">
+		<div class="about-header">
+			<br><br><br>
+			<h3><u>Latest News</u></h3><br><br>
+			<div class="marquee-text">
+        <marquee width="70%" direction="left" height="50px">
+  |&nbsp&nbspCheck the live location of your KSRTC bus here &nbsp ! &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
+  </marquee>
+			</div></div></div></div>
+    	<br><br>
+    	<hr style="width:100%;text-align:left;margin-left:0">
+    	<br><br>
+  <div class="background1" >
+    <center>
+<form name="frmstate" class="form-style-9">
+From: &nbsp
+<select size="1" name="starting">
+<option>East Fort</option>
+</select>
+&nbsp &nbsp Destination &nbsp
+<select size="1" name="state">
+<option>Kazhakootam</option>
+<option>Peroorkada</option>
+<option>Venjaramoodu</option>
+<option>Pothencode</option>
+<option>Veli</option>
+<option>Kovalam</option>
+<option>Medical College</option>
+<option>Pulayanaarkotta</option>
+<option>Perumathura</option>
+<option>Palode</option>
+
+</select>
+<br><br>
+&nbsp &nbsp Location &nbsp;
+<input type="text" name="txtcapital">
+<br><br><input type="button" value="Show Location" onClick="showcapital ()">
+</form>
+</center>
+</div>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<div class="footer-section" id="contact" id="contact">
+			<div class="container">
+			<div class="contact-header">
+        <div class="footer-topp">E-Ticketing&nbsp |&nbsp Notifications&nbsp | &nbspTenders &nbsp|&nbsp
+Keypeople&nbsp | &nbspDepots &nbsp| &nbspFinancial &nbsp|&nbsp G-SPARK
+</div>
+			<div class="footer-bottom">
+					<p>Phone : 0471 - 2471011 [10 lines] &nbsp&nbsp&nbsp&nbspEmail: occ.ksrtc@kerala.gov.in(General Enquiry)
+            <br><br>&copy; Copyright 2021 : IT Division, Transport Bhavan, KSRTC. All Rights Reserved.</p>
+
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear'
+					 		};
+							*/
+
+							$().UItoTop({ easingType: 'easeOutQuart' });
+
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+
+		</div>
+	</div>
+
+
+</body>
+</html>
